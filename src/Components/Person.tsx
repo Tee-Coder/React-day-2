@@ -1,3 +1,6 @@
+//created by me
+//Also created the components
+
 import * as React from 'react';
 
 export interface IPersonProps {

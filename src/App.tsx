@@ -1,10 +1,10 @@
 import React from 'react';
-import { Heading } from './Components/Heading';
-import Person from './Components/Person';
+import { Heading } from './Components/Heading';//WRITTEN BY ME
+import Person from './Components/Person';//WRITTEN BY ME
 import logo from './logo.svg';
 import './App.css';
 
-const myPersonFunction = (input: string): string => {
+const myPersonFunction = (input: string): string => { //WRITTEN BY ME ALSO LINE 28
   return 'Our Person is Important' + input;
 }
 
@@ -25,7 +25,7 @@ function App() {
         >
           Learn React
         </a>
-        <Person name = "Billy-Joe Bob" callbackMethod={myPersonFunction}/>
+        <Person name = "Billy-Joe Bob" callbackMethod={myPersonFunction}/> 
       </header>
     </div>
   );
